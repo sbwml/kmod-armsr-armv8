@@ -63,10 +63,10 @@ Depends: libc, netifd, jsonfilter, usign, openwrt-keyring, fstools, fwtool
 License: GPL-2.0
 Section: base
 Architecture: aarch64_generic
-Installed-Size: 47659
+Installed-Size: 47658
 Filename: base-files_1-r23809-234f1a2efa_aarch64_generic.ipk
-Size: 48693
-SHA256sum: a97e8d60db50a764dc2a3bafdd250526ef66f453a8542f0d5dbb72c56c54e376
+Size: 48692
+SHA256sum: bcf6a42f763ce41bf11945b51d73d747de24329291168d8424947eff4c44984a
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -5035,10 +5035,10 @@ Depends: kernel (=6.6.35-1-e8032f423b49cc5d6ea4238dd66d4800)
 License: GPL-2.0
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 55588
+Installed-Size: 55590
 Filename: kmod-ikconfig_6.6.35-1_aarch64_generic.ipk
-Size: 56392
-SHA256sum: 898e3e2780b620d6f2f9cd283683f6e83da244b238b196d7a741eb2adcb57362
+Size: 56397
+SHA256sum: 92c73fe482f0cc8adc2af5832062e73c75f3502d38daba6c2169d06160943938
 Description:  Kernel configuration via /proc/config.gz
 
 Package: kmod-imx2-wdt
@@ -8867,10 +8867,10 @@ Version: 6.6.35-1
 Depends: kernel (=6.6.35-1-e8032f423b49cc5d6ea4238dd66d4800), kmod-ipt-conntrack
 Section: Derry Apps
 Architecture: aarch64_generic
-Installed-Size: 486157
+Installed-Size: 486150
 Filename: kmod-oaf_6.6.35-1_aarch64_generic.ipk
-Size: 481765
-SHA256sum: c9317d2be300253250e841634a95888d5133ea267c1ea14452fc318f7628303e
+Size: 481698
+SHA256sum: 9c2d2b3c89bcbe58a360d6cdb1518fcfcb992d0ed5d1f4c771e19aca49e91ec9
 Description:  open appfilter kernel module 
 
 Package: kmod-octeontx2-net
@@ -13671,8 +13671,8 @@ ABIVersion: 129
 Architecture: aarch64_generic
 Installed-Size: 86471
 Filename: libxdp129_1.2.9-1_aarch64_generic.ipk
-Size: 86681
-SHA256sum: 80521089ff8cccbaddb9740816e3be5b2199388ca9a36ea996c17d0f520743e0
+Size: 86731
+SHA256sum: 2d2b861e0a4e5cebfe926804ca6dddc5da9cd63778c2b244241f42e231a5fc05
 Description:  libxdp - library for attaching XDP programs and using AF_XDP sockets
 
 Package: libxtables12
@@ -14059,8 +14059,8 @@ Section: net
 Architecture: aarch64_generic
 Installed-Size: 43567
 Filename: xdp-filter_1.2.9-1_aarch64_generic.ipk
-Size: 44272
-SHA256sum: d9d402f3df11b73f93610a56f393599c3f70fa96d17e3cc1c394d368c5ac682f
+Size: 44268
+SHA256sum: 7bbf395c506debe05c0443e0e90e16dec8cf23080c130923d3f1c39d13244a89
 Description:  xdp-filter is a packet filtering utility powered by XDP. It is deliberately
  simple and so does not have the same matching capabilities as, e.g.,
  netfilter. Instead, thanks to XDP, it can achieve very high drop rates:
@@ -14074,8 +14074,8 @@ Section: net
 Architecture: aarch64_generic
 Installed-Size: 35175
 Filename: xdp-loader_1.2.9-1_aarch64_generic.ipk
-Size: 35871
-SHA256sum: b3858478a7749676eaa74e85d1657c202b8123f0d3aab90c6e16215a0bb068a2
+Size: 35872
+SHA256sum: d919b82039c9202dfbb971ba0e6f0dc897ca74ba8fd5579629b6143f0c99c761
 Description:  xdp-loader is a simple loader for XDP programs with support for attaching
  multiple programs to the same interface. To achieve this it exposes the same
  load and unload semantics exposed by the libxdp library.
@@ -14086,10 +14086,10 @@ Depends: libc, libxdp129, libpcap1
 License: GPL-2.0-only
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 43476
+Installed-Size: 43477
 Filename: xdpdump_1.2.9-1_aarch64_generic.ipk
-Size: 43999
-SHA256sum: 052e07900bd53e7af8e45c7c0bf6293fe62e37fd9b19cf293c8428f116283148
+Size: 43981
+SHA256sum: 3fddb1f3af1672664b83b031e63c3674dc4ab30bcee49fe1c7ba19ab5ed92f48
 Description:  xdpdump - a simple tcpdump like tool for capturing packets at the XDP layer
 
 Package: xtables-legacy
