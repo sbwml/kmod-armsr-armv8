@@ -65,8 +65,8 @@ Section: base
 Architecture: aarch64_generic
 Installed-Size: 47657
 Filename: base-files_1-r23809-234f1a2efa_aarch64_generic.ipk
-Size: 48694
-SHA256sum: 8da46d93cc95782f616d96c48ed4c09c631193be52946b9e44e978ad8b8344ce
+Size: 48687
+SHA256sum: 2e875436d821382223fc9bafe230e3cf603638a903148f39233ecf3a53784f93
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -9523,14 +9523,14 @@ SHA256sum: 6434d2749be63162e5f2bac6d76ad1d32e517ae7d10913df50a618edda8d94bd
 Description:  Driver for Realtek r8101 chipsets
 
 Package: kmod-r8125
-Version: 6.6.37+9.013.02-1
+Version: 6.6.37+9.013.02-2
 Depends: kernel (=6.6.37-1-818ad38d1fdece33ba97eb5753377e40), kmod-mii, kmod-phy-realtek
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 165074
-Filename: kmod-r8125_6.6.37+9.013.02-1_aarch64_generic.ipk
-Size: 147241
-SHA256sum: 7a00d9def42be2f60c775d2cad5fd544e1856e92fb61dbdf2b31f343ad94ecb1
+Installed-Size: 165244
+Filename: kmod-r8125_6.6.37+9.013.02-2_aarch64_generic.ipk
+Size: 147088
+SHA256sum: c6e42ad2228692741388ce77c8f777ac2013029d0c2b4f6b24c54341cabb983a
 Description:  Driver for Realtek r8125 chipsets
 
 Package: kmod-r8126
@@ -11997,15 +11997,15 @@ SHA256sum: 624d5e2a29f46c650da61109cca6c6b3e6701791453c05985e510574ceec6ede
 Description:  Kernel module for USB-to-Ethernet Realtek 8150 convertors
 
 Package: kmod-usb-net-rtl8152-vendor
-Version: 6.6.37+2.17.1-1
+Version: 6.6.37+2.18.1-1
 Depends: kernel (=6.6.37-1-818ad38d1fdece33ba97eb5753377e40), kmod-usb-net
 Conflicts: kmod-usb-net-rtl8152
 Section: kernel
 Architecture: aarch64_generic
-Installed-Size: 369762
-Filename: kmod-usb-net-rtl8152-vendor_6.6.37+2.17.1-1_aarch64_generic.ipk
-Size: 297762
-SHA256sum: 1f87586919bf354f6aaa00a349f0690bfd357d27af3ec67bd1ee88396ba8d680
+Installed-Size: 139342
+Filename: kmod-usb-net-rtl8152-vendor_6.6.37+2.18.1-1_aarch64_generic.ipk
+Size: 133747
+SHA256sum: a008b9e973c3886ffc09b1e1590655a6b10502664faf4dd0dcd5b9bddeacde6c
 Description:  Kernel module for Realtek RTL8152/RTL8153 Based USB Ethernet Adapters
 
 Package: kmod-usb-net-rtl8152
