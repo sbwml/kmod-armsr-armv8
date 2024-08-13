@@ -88,7 +88,7 @@ Architecture: aarch64_generic
 Installed-Size: 47691
 Filename: base-files_1-r24012-d8dd03c46f_aarch64_generic.ipk
 Size: 48724
-SHA256sum: 92062e180251dc1528d797cb68d71eb36bd19bf903d048e9d5e7f9148695a8e9
+SHA256sum: edab5cb60f6e19a98ed978a2d7b335944a966403b13f76fd250c0b7fa78d1d36
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
