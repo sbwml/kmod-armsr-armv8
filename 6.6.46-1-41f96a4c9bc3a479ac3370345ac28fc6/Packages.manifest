@@ -87,8 +87,8 @@ SourceDateEpoch: 1721166679
 Architecture: aarch64_generic
 Installed-Size: 47691
 Filename: base-files_1-r24012-d8dd03c46f_aarch64_generic.ipk
-Size: 48726
-SHA256sum: 10b8e9c2fabe4eec036183be3b7e307759f686b6942fbf1d6689fc6b5264fff0
+Size: 48723
+SHA256sum: 9505d5783ce1607452116ea411d7a61bbe9e915e260fcc918b1e24cd30a4ad20
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -12182,10 +12182,10 @@ LicenseFiles: COPYING
 Section: kernel
 SourceDateEpoch: 1721166679
 Architecture: aarch64_generic
-Installed-Size: 8014
+Installed-Size: 8969
 Filename: kmod-phy-realtek_6.6.46-1_aarch64_generic.ipk
-Size: 8685
-SHA256sum: 86217c464ce490cc7229ba8287cc8b8adfbb5de901f170880a10693560b7349b
+Size: 9517
+SHA256sum: bd2a584aedb98a34f69881fd9d5a04f2c524c815f947f061d1606ec880d7cfca
 Description:  Supports the Realtek 821x PHY.
 
 Package: kmod-phy-smsc
