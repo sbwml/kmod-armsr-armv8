@@ -62,18 +62,18 @@ SHA256sum: 695551d40678800cfb83a00fbf8d3a1973d009b6a8ee0289cce7c4956c98cd6f
 Description:  AR9271/AR7010 firmware
 
 Package: autocore-arm
-Version: 17
+Version: 18
 Depends: libc
 Source: package/new/autocore
 SourceName: autocore-arm
 Section: opt
-SourceDateEpoch: 1716644024
+SourceDateEpoch: 1725335002
 Maintainer: CN_SZTL
 Architecture: aarch64_generic
-Installed-Size: 7271
-Filename: autocore-arm_17_aarch64_generic.ipk
-Size: 8002
-SHA256sum: 8f1036a9201db031f5aad1c5fe2f255d71efefbaa6a9ab70bb11207f310ca77c
+Installed-Size: 7285
+Filename: autocore-arm_18_aarch64_generic.ipk
+Size: 8007
+SHA256sum: 646194996cfd7946a64299806cfc1d8a5fddc8b15083d25cd01e9313c1a3332f
 Description:  ARM auto core script.
 
 Package: base-files
@@ -85,10 +85,10 @@ License: GPL-2.0
 Section: base
 SourceDateEpoch: 1721166679
 Architecture: aarch64_generic
-Installed-Size: 47707
+Installed-Size: 47708
 Filename: base-files_1-r24012-d8dd03c46f_aarch64_generic.ipk
-Size: 48743
-SHA256sum: 98527db87a6be7e52616dbe786f26ab77a03e9e3a6b279dc55e0dfee38394a45
+Size: 48740
+SHA256sum: 5bb1d1c61cb171329c4c4d029eac0deaab01a8df52c7ab6c68f6082e42d5790b
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -10623,6 +10623,22 @@ Filename: kmod-nat46_6.6.48+2022-09-19-4c5beee2-1_aarch64_generic.ipk
 Size: 23363
 SHA256sum: e3019a1b67616b4568b858bab5f8ae323526688442fbba5bff0ae957beed17cd
 Description:  Stateless NAT46 translation kernel module
+
+Package: kmod-natflow
+Version: 6.6.48+20240812-1
+Depends: kernel (=6.6.48-1-33c1c7801a516d069c4bfc3b6a3ad28a), kmod-ipt-conntrack, kmod-ipt-nat, kmod-ipt-ipset, kmod-br-netfilter
+Source: package/new/natflow
+SourceName: kmod-natflow
+License: GPL-2.0
+Section: kernel
+SourceDateEpoch: 1725338962
+Maintainer: Chen Minqiang <ptpt52@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 92956
+Filename: kmod-natflow_6.6.48+20240812-1_aarch64_generic.ipk
+Size: 92577
+SHA256sum: acee6550ede1ba80407f013b1bf441fe49595b00688a52a40cb353c54c14f7d2
+Description:  fast nat forward kmod
 
 Package: kmod-natsemi
 Version: 6.6.48-1
