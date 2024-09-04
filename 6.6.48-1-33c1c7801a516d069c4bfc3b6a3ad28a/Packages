@@ -63,10 +63,10 @@ Depends: libc, netifd, jsonfilter, usign, openwrt-keyring, fstools, fwtool
 License: GPL-2.0
 Section: base
 Architecture: aarch64_generic
-Installed-Size: 47708
+Installed-Size: 47707
 Filename: base-files_1-r24012-d8dd03c46f_aarch64_generic.ipk
-Size: 48740
-SHA256sum: 5bb1d1c61cb171329c4c4d029eac0deaab01a8df52c7ab6c68f6082e42d5790b
+Size: 48741
+SHA256sum: fe2b0127b708cf99a5fa2a25d23afb01a2b64f09b075edc4ad3ac36301d3e85f
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -167,10 +167,10 @@ Depends: libc, chat
 License: GPL-2.0+
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 25763
+Installed-Size: 25741
 Filename: comgt_0.32-35_aarch64_generic.ipk
-Size: 26413
-SHA256sum: c9c40d8a9d169f3c4cf678db690415334ad0794da7f53fdef314d150e3207a0a
+Size: 26386
+SHA256sum: a51f4eb62505b76b800271139a6f32223637e755ba0ab461fdc7336b3791a000
 Description:  comgt is a scripting language interpreter useful for establishing 
  communications on serial lines and through PCMCIA modems as well as GPRS 
  and 3G datacards.
@@ -183,10 +183,10 @@ License: MIT
 Section: net
 CPE-ID: cpe:/a:dropbear_ssh_project:dropbear_ssh
 Architecture: aarch64_generic
-Installed-Size: 165152
+Installed-Size: 165101
 Filename: dropbear_2022.82-6_aarch64_generic.ipk
-Size: 165618
-SHA256sum: 6fe2210a0779f38d056416d58f63ab53dc209cf2417dd32fc3b4ba6acdaa0be9
+Size: 165553
+SHA256sum: e94abad9edd54e489f5e315e5f436930155d4466608d8078d96c015d76a776f4
 Description:  A small SSH2 server/client designed for small memory environments.
 
 Package: dropbearconvert
@@ -196,10 +196,10 @@ License: MIT
 Section: utils
 CPE-ID: cpe:/a:dropbear_ssh_project:dropbear_ssh
 Architecture: aarch64_generic
-Installed-Size: 31359
+Installed-Size: 31356
 Filename: dropbearconvert_2022.82-6_aarch64_generic.ipk
-Size: 32047
-SHA256sum: e1825f30699b75883daecbaf18533083f8957a0e5c18650d382154d3fd399914
+Size: 32034
+SHA256sum: 9ff2196403b0866bde23f68e5f3b0c16bc2c184e3aad60d39bd98c5b95f3bf08
 Description:  Utility for converting SSH keys
 
 Package: e100-firmware
@@ -257,10 +257,10 @@ Depends: libc
 License: GPL-2.0
 Section: utils
 Architecture: aarch64_generic
-Installed-Size: 4810
+Installed-Size: 4809
 Filename: fwtool_2019-11-12-8f7fe925-1_aarch64_generic.ipk
-Size: 5555
-SHA256sum: 32fd48a84b78156d86686c0f9529af7600b9a7c0b6e7ae6e32f21bd71a1f760c
+Size: 5550
+SHA256sum: 78bb1aa5a7930ab2ffe950f7f47c0fbdf7659682991d87a4c9f35c2135b3b87a
 Description:  Utility for appending and extracting firmware metadata and signatures
 
 Package: grub2-efi-arm
@@ -430,10 +430,10 @@ License: GPL-2.0
 Section: net
 CPE-ID: cpe:/a:netfilter:iptables
 Architecture: aarch64_generic
-Installed-Size: 6050
+Installed-Size: 6049
 Filename: iptables-mod-filter_1.8.8-2_aarch64_generic.ipk
-Size: 6812
-SHA256sum: c1ae970f9dbd1734042e866de4f60433b08c01e4d5936268f532fb391ea1b3a6
+Size: 6813
+SHA256sum: 368e1629df7d8e71af170fb0e28c321177db243619645142b1c16338be98e3b5
 Description:  iptables extensions for packet content inspection.
  Includes support for:
  
@@ -449,10 +449,10 @@ License: GPL-2.0
 Section: net
 CPE-ID: cpe:/a:netfilter:iptables
 Architecture: aarch64_generic
-Installed-Size: 12188
+Installed-Size: 12190
 Filename: iptables-mod-hashlimit_1.8.8-2_aarch64_generic.ipk
-Size: 12954
-SHA256sum: 9ace1b96af74a7c3c8080eaf92f03fbf174ed7e9e8ff78b3fc1343e156cbbbb6
+Size: 12951
+SHA256sum: 7fc7bf20ebbe54835530ea8de7a5efea1aac3d121d9d2ebfe08054594a759b74
 Description:  iptables extensions for hashlimit matching
  
  Matches:
@@ -512,10 +512,10 @@ License: GPL-2.0
 Section: net
 CPE-ID: cpe:/a:netfilter:iptables
 Architecture: aarch64_generic
-Installed-Size: 7584
+Installed-Size: 7737
 Filename: iptables-mod-ipsec_1.8.8-2_aarch64_generic.ipk
-Size: 8378
-SHA256sum: ded730e373b73c10007846469a6633d71554423676649f656569f732a4e486b4
+Size: 8517
+SHA256sum: 6af1ba0ffd27ae87630938ed2dddfcef662be7bed7f530222d8669d287a05c4d
 Description:  iptables extensions for matching ipsec traffic.
  
  Matches:
@@ -8063,18 +8063,6 @@ Size: 23363
 SHA256sum: e3019a1b67616b4568b858bab5f8ae323526688442fbba5bff0ae957beed17cd
 Description:  Stateless NAT46 translation kernel module
 
-Package: kmod-natflow
-Version: 6.6.48+20240812-1
-Depends: kernel (=6.6.48-1-33c1c7801a516d069c4bfc3b6a3ad28a), kmod-ipt-conntrack, kmod-ipt-nat, kmod-ipt-ipset, kmod-br-netfilter
-License: GPL-2.0
-Section: kernel
-Architecture: aarch64_generic
-Installed-Size: 92956
-Filename: kmod-natflow_6.6.48+20240812-1_aarch64_generic.ipk
-Size: 92577
-SHA256sum: acee6550ede1ba80407f013b1bf441fe49595b00688a52a40cb353c54c14f7d2
-Description:  fast nat forward kmod
-
 Package: kmod-natsemi
 Version: 6.6.48-1
 Depends: kernel (=6.6.48-1-33c1c7801a516d069c4bfc3b6a3ad28a)
@@ -13873,10 +13861,10 @@ ABIVersion: 1
 Status: unknown hold not-installed
 Essential: yes
 Architecture: aarch64_generic
-Installed-Size: 50612
+Installed-Size: 50518
 Filename: libgcc1_15.0.0-4_aarch64_generic.ipk
-Size: 51147
-SHA256sum: 3f1848c5458de71c3438a86ab81444c346acc50ed39a9becd31e2a779977a56a
+Size: 51081
+SHA256sum: 31fc3d5fd208b18da6773d96c534b0fcea2dd6460c406960849c1e7b59678257
 Description:  GCC support library
 
 Package: libip4tc2
@@ -13888,10 +13876,10 @@ Section: libs
 ABIVersion: 2
 CPE-ID: cpe:/a:netfilter:iptables
 Architecture: aarch64_generic
-Installed-Size: 13037
+Installed-Size: 13030
 Filename: libip4tc2_1.8.8-2_aarch64_generic.ipk
-Size: 13800
-SHA256sum: c80d6a916501ea3843fe266de16471a59ba600439c61c45002b1aa5453e9c427
+Size: 13797
+SHA256sum: f2be8de6c1a8ec807f2ee0236b494b504c386ae8890c455d200bed08e1b1f570
 Description:  IPv4 firewall - shared libiptc library
 
 Package: libip6tc2
@@ -13905,8 +13893,8 @@ CPE-ID: cpe:/a:netfilter:iptables
 Architecture: aarch64_generic
 Installed-Size: 13194
 Filename: libip6tc2_1.8.8-2_aarch64_generic.ipk
-Size: 13954
-SHA256sum: 87ea1d0f26fd3fe026941a9da2266c32ed509a45cc98ade73d9919fa8a6bdd6e
+Size: 13956
+SHA256sum: 78327231b4f47d7504da29c692470e0e112dd4b2495d98a3892074067233b54d
 Description:  IPv6 firewall - shared libiptc library
 
 Package: libiptext-nft0
@@ -13933,10 +13921,10 @@ Section: libs
 ABIVersion: 0
 CPE-ID: cpe:/a:netfilter:iptables
 Architecture: aarch64_generic
-Installed-Size: 50909
+Installed-Size: 50940
 Filename: libiptext0_1.8.8-2_aarch64_generic.ipk
-Size: 51614
-SHA256sum: 1030510f8b0042ac2fb51c811bbc06003707615c2228489be796a7e72c6b3298
+Size: 51640
+SHA256sum: 6553f0f3b828e04efe4e5cce5cbb45b5b57ddce6d40e2ce00b994f3d0cb49685
 Description:  IPv4 firewall - shared libiptext library
 
 Package: libiptext6-0
@@ -13991,10 +13979,10 @@ ABIVersion: 6
 Status: unknown hold not-installed
 Essential: yes
 Architecture: aarch64_generic
-Installed-Size: 664436
+Installed-Size: 664480
 Filename: libstdcpp6_15.0.0-4_aarch64_generic.ipk
-Size: 661826
-SHA256sum: 18d37e0de28e04a7128273df926a2996c8a2e8c05917bbc0fb35b7d8c9f9be4d
+Size: 661877
+SHA256sum: 7121c075b0d7b2a16d4f6f19794b48e6bc3fc16c83695a3925e965422018644e
 Description:  GNU Standard C++ Library v3
 
 Package: libxdp129
@@ -14007,8 +13995,8 @@ ABIVersion: 129
 Architecture: aarch64_generic
 Installed-Size: 87102
 Filename: libxdp129_1.2.9-1_aarch64_generic.ipk
-Size: 87150
-SHA256sum: 104bb00ea862c340087f05fb7af1ba5fd2283b8e3a41da9490d19ebff07d6302
+Size: 87148
+SHA256sum: 77f8707d9f52e3432f3c644eca8d739b0ce64df59a5c8e97b679b95eb5a64d14
 Description:  libxdp - library for attaching XDP programs and using AF_XDP sockets
 
 Package: libxtables12
@@ -14020,10 +14008,10 @@ Section: libs
 ABIVersion: 12
 CPE-ID: cpe:/a:netfilter:iptables
 Architecture: aarch64_generic
-Installed-Size: 26386
+Installed-Size: 26333
 Filename: libxtables12_1.8.8-2_aarch64_generic.ipk
-Size: 26909
-SHA256sum: badc3bfc597331bd62924cca3a910a7a9bcc3c86f2b2de38e993ef0a9994dc25
+Size: 26835
+SHA256sum: b0cc20b171b52bd0b9757076223eff38d2a009935c0dda40de2a6eefe9a44d9e
 Description:  IPv4/IPv6 firewall - shared xtables library
 
 Package: mt7601u-firmware
@@ -14043,10 +14031,10 @@ Depends: libc, libubox20230523
 License: GPL-2.0+
 Section: utils
 Architecture: aarch64_generic
-Installed-Size: 13622
+Installed-Size: 13566
 Filename: mtd_26_aarch64_generic.ipk
-Size: 14366
-SHA256sum: 564ded84ab03b627a718e0cb24b620e5ec3746774f2c3d00bd671f838ba4c526
+Size: 14301
+SHA256sum: 22a318ad8e2cab23808b4aaa84c99118b1599cc004904a1ba2e46ba8e7487790
 Description:  This package contains an utility useful to upgrade from other firmware or 
  older OpenWrt releases.
 
@@ -14088,10 +14076,10 @@ Version: 6.6.48-6
 Depends: libc, libelf1, libdw1, libpthread, librt, libstdcpp6, objdump, libbfd, libopcodes
 Section: devel
 Architecture: aarch64_generic
-Installed-Size: 953947
+Installed-Size: 954288
 Filename: perf_6.6.48-6_aarch64_generic.ipk
-Size: 953271
-SHA256sum: de3b0343bdceecb44d1fcdd4e503f8132ffadd2bfdf52e2e82515a2197784aca
+Size: 953576
+SHA256sum: 00897a1026164dc2cae2d50ae9cddb8a58f65eec8af45a8df285bfaa48faa19e
 Description:  perf is the Linux performance monitoring tool
 
 Package: qosify
@@ -14100,10 +14088,10 @@ Depends: libc, libbpf1, libubox20230523, libubus20230605, libnl-tiny1, kmod-sche
 License: GPL-2.0
 Section: utils
 Architecture: aarch64_generic
-Installed-Size: 26743
+Installed-Size: 26679
 Filename: qosify_2023-03-07-9a47ea4b-1_aarch64_generic.ipk
-Size: 27235
-SHA256sum: 9d9fd4dc724738621f93e6cad01e3137b02fe66231b3179e1b30b186026a88b1
+Size: 27145
+SHA256sum: 3a73c9938a93edf5d9b1123bdb7f414254968091d2b8a0b3aafd3adc3fa98f3a
 Description:  A simple QoS solution based eBPF + CAKE
 
 Package: r8152-firmware
@@ -14333,10 +14321,10 @@ Depends: libc
 License: GPL-2.0 GPL-2.0+
 Section: utils
 Architecture: aarch64_generic
-Installed-Size: 14980
+Installed-Size: 14912
 Filename: uboot-envtools_2023.04-1_aarch64_generic.ipk
-Size: 15671
-SHA256sum: 2aafef663de7618c3f9ab3fbafe68f9bdc1c7f6df01f5621c2cef7650e3cf20c
+Size: 15587
+SHA256sum: 3b740c557de4d6683730b5d5399be177ae394d342839e03eb3fd236024992e50
 Description:  This package includes tools to read and modify U-Boot bootloader environment.
 
 Package: umbim
@@ -14358,10 +14346,10 @@ Depends: libc, libubox20230523, libblobmsg-json20230523, kmod-usb-net, kmod-usb-
 License: GPL-2.0
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 47119
+Installed-Size: 46785
 Filename: uqmi_2022-10-20-c8c9f105-1_aarch64_generic.ipk
-Size: 47919
-SHA256sum: 48061831513a7a7a64db119076425c1b107ac35a9b6391bd36c1c502f68a27de
+Size: 47528
+SHA256sum: 7b56a67f5655048a6d5f2102800c30dd50997611b135ce7de700cf59c9f65cea
 Description:  uqmi is a command line tool for controlling mobile broadband modems using
  the QMI-protocol.
 
@@ -14404,10 +14392,10 @@ Depends: libc, libxdp129
 License: GPL-2.0-only
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 44081
+Installed-Size: 44083
 Filename: xdp-filter_1.2.9-1_aarch64_generic.ipk
-Size: 44783
-SHA256sum: 1ad9358c98949b92b224dafd5f54cb83bc9b12191673ddd276e5be139eb85306
+Size: 44785
+SHA256sum: b386cf235d4e36b5562e7c13e45d31bed9f08dc55c5b3c60c804b844a965df8c
 Description:  xdp-filter is a packet filtering utility powered by XDP. It is deliberately
  simple and so does not have the same matching capabilities as, e.g.,
  netfilter. Instead, thanks to XDP, it can achieve very high drop rates:
@@ -14419,10 +14407,10 @@ Depends: libc, libxdp129
 License: GPL-2.0-only
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 35802
+Installed-Size: 35805
 Filename: xdp-loader_1.2.9-1_aarch64_generic.ipk
-Size: 36486
-SHA256sum: 4db6db779e8cc313ae56d1eb30ec0d932e02403b35dbfbe8728d75ef6dd74291
+Size: 36491
+SHA256sum: ad2f485ee53194888c49d76aa22ba716f62982b6442b9920dfc4dec06d952e01
 Description:  xdp-loader is a simple loader for XDP programs with support for attaching
  multiple programs to the same interface. To achieve this it exposes the same
  load and unload semantics exposed by the libxdp library.
@@ -14433,10 +14421,10 @@ Depends: libc, libxdp129, libpcap1
 License: GPL-2.0-only
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 43823
+Installed-Size: 43825
 Filename: xdpdump_1.2.9-1_aarch64_generic.ipk
-Size: 44354
-SHA256sum: fcea70eb355fd745babfdb92c91cbb4c0b4e50392142f27087cf751076175bf9
+Size: 44350
+SHA256sum: 227aeb4728e4bb14b72cb7bc83e41a28d51af4ad748087af0a24035d3841e194
 Description:  xdpdump - a simple tcpdump like tool for capturing packets at the XDP layer
 
 Package: xtables-legacy
@@ -14446,10 +14434,10 @@ License: GPL-2.0
 Section: net
 CPE-ID: cpe:/a:netfilter:iptables
 Architecture: aarch64_generic
-Installed-Size: 32301
+Installed-Size: 32178
 Filename: xtables-legacy_1.8.8-2_aarch64_generic.ipk
-Size: 32784
-SHA256sum: 4ec08260936324ef0b0209ff3ef5ec3ad1718c205a62f904e3b4de4d07ebb25d
+Size: 32659
+SHA256sum: 430ffd2cac4f8924f07231819697f5edbb25c14087b8d53e82c312b551fb5687
 Description:  IP firewall administration tool
 
 Package: xtables-nft
@@ -14459,9 +14447,9 @@ License: GPL-2.0
 Section: net
 CPE-ID: cpe:/a:netfilter:iptables
 Architecture: aarch64_generic
-Installed-Size: 96639
+Installed-Size: 96657
 Filename: xtables-nft_1.8.8-2_aarch64_generic.ipk
-Size: 96700
-SHA256sum: bbb680fc91dfc1662094a1a50f4e9e8807d6fe4b75a23126b06f90afaeeb8188
+Size: 96627
+SHA256sum: 8b7cdb4c56cd6eef717d403b3e6a37e94b9a6ff6fe165c9b8d630a67a4f64ea2
 Description:  IP firewall administration tool nft
 
