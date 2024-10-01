@@ -85,10 +85,10 @@ License: GPL-2.0
 Section: base
 SourceDateEpoch: 1727132013
 Architecture: aarch64_generic
-Installed-Size: 47704
+Installed-Size: 47703
 Filename: base-files_1-r24106-10cc5fcd00_aarch64_generic.ipk
-Size: 48737
-SHA256sum: e40fc3d5ef4d2c9e555cb88492b30f0776451f81f9438dc7b6c39debe0e6e7b8
+Size: 48734
+SHA256sum: 7763c3fd6cd8e5d02af778361207fba728429722105426331cb0035676e0bb43
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -9783,10 +9783,10 @@ Section: kernel
 SourceDateEpoch: 1727132013
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 83422
+Installed-Size: 82919
 Filename: kmod-mt76-core_6.6.53+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 83408
-SHA256sum: 5d88c1ef7874d19c8ca7f00a8db4c12fbfe46b813c8f3643b67fd54e25c0a4ee
+Size: 83020
+SHA256sum: 2a562d82ad038b9d88c5bb15692cc370be8b3b9e9fa31e39469255b1f24fec9c
 Description:  MediaTek MT76xx wireless driver
 
 Package: kmod-mt76-sdio
@@ -9815,10 +9815,10 @@ Section: kernel
 SourceDateEpoch: 1727132013
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 31576
+Installed-Size: 31454
 Filename: kmod-mt76-usb_6.6.53+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 32332
-SHA256sum: 0c52099ff02fda3fb83233889eb20d0166f6d8b30b6dae0cbfb995b56ff74064
+Size: 32197
+SHA256sum: 73205ad16c209714d32005d33679d6c49783f1158cba2e984c60efc4a88ff1f2
 Description:  MediaTek MT76xx wireless driver USB support
 
 Package: kmod-mt7601u
@@ -9848,10 +9848,10 @@ Section: kernel
 SourceDateEpoch: 1727132013
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 134626
+Installed-Size: 134627
 Filename: kmod-mt7603_6.6.53+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 135262
-SHA256sum: cef4f3b3141837d1cd4d7c220a473c95f5c4a2996c82f314c52bc9a1f6313fb3
+Size: 135290
+SHA256sum: e6bd3d7970955ba4efbee281498ff497aba69b5853fef8db77c762d805c7ae08
 Description:  MediaTek MT7603 wireless driver
 
 Package: kmod-mt7615-common
@@ -9864,10 +9864,10 @@ Section: kernel
 SourceDateEpoch: 1727132013
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 96902
+Installed-Size: 96801
 Filename: kmod-mt7615-common_6.6.53+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 97011
-SHA256sum: e79eba97178bc91ac79f5a80008896814ea28f13a6793b9610bd4d918045a821
+Size: 96905
+SHA256sum: 2679189572f4235d1e88570df31a1cd0ff24f812827c07fe11e3afc0da9f970f
 Description:  MediaTek MT7615 wireless driver common code
 
 Package: kmod-mt7615-firmware
@@ -10040,10 +10040,10 @@ Section: kernel
 SourceDateEpoch: 1727132013
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 61452
+Installed-Size: 61325
 Filename: kmod-mt76x02-common_6.6.53+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 62114
-SHA256sum: a23f414a9156e17845e54248d5ad745adde75d059cfa09d3e7f66a5a432912a9
+Size: 61981
+SHA256sum: 4642b598f0eefbabe7954899fa905b6c2f27ec889205542dc281bb2f567d1060
 Description:  MediaTek MT76x0/MT76x2 wireless driver common code
 
 Package: kmod-mt76x02-usb
