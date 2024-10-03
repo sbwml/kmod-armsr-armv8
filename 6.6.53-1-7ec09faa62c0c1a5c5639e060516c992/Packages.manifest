@@ -64,7 +64,7 @@ Description:  AR9271/AR7010 firmware
 Package: autocore-arm
 Version: 18
 Depends: libc
-Source: feeds/base/new/autocore
+Source: feeds/base/system/autocore
 SourceName: autocore-arm
 Section: opt
 SourceDateEpoch: 1725335002
@@ -72,8 +72,8 @@ Maintainer: CN_SZTL
 Architecture: aarch64_generic
 Installed-Size: 7285
 Filename: autocore-arm_18_aarch64_generic.ipk
-Size: 8020
-SHA256sum: 9183898bab9dfdb0cace362742cb8cf2daf77af2b43e1b0ff744e931136621fa
+Size: 8018
+SHA256sum: 990506728cd2dd5cdf3787076f6d976dbd137b2364ac63ad8774d3296fb1c9f6
 Description:  ARM auto core script.
 
 Package: base-files
@@ -85,10 +85,10 @@ License: GPL-2.0
 Section: base
 SourceDateEpoch: 1727132013
 Architecture: aarch64_generic
-Installed-Size: 47703
+Installed-Size: 47704
 Filename: base-files_1-r24106-10cc5fcd00_aarch64_generic.ipk
 Size: 48734
-SHA256sum: 7763c3fd6cd8e5d02af778361207fba728429722105426331cb0035676e0bb43
+SHA256sum: 06b0c1c083530559db5bb4eb36225962fdd30dd83c9587fadb1c45bc020be94e
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -10392,10 +10392,10 @@ Section: kernel
 SourceDateEpoch: 1727132013
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 2293884
+Installed-Size: 2294439
 Filename: kmod-mt7992-23-firmware_6.6.53+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 2295152
-SHA256sum: 67646e39386b1934cf2b8350e3d311c2fd072878ddde76d67ffc62262086fa70
+Size: 2295697
+SHA256sum: 89a9b4c31f2c875d4076ee6a17adf4a6edf024f838750455298e9eca80ae0257
 Description:  MediaTek MT7996 firmware (2+3 antenna variant)
 
 Package: kmod-mt7992-firmware
@@ -10408,10 +10408,10 @@ Section: kernel
 SourceDateEpoch: 1727132013
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_generic
-Installed-Size: 2334073
+Installed-Size: 2334795
 Filename: kmod-mt7992-firmware_6.6.53+2024-09-29-680bc70f-1_aarch64_generic.ipk
-Size: 2335326
-SHA256sum: 4047bc6bf8dbf059531e18ec96d6c6918171d369bd7abfb34507f984c820efa8
+Size: 2336036
+SHA256sum: d07b6346cffc82fd8744661ab4ab2b226f44985322ede3f865cb4047c62d9c05
 Description:  MediaTek MT7992 firmware
 
 Package: kmod-mt7996-233-firmware
