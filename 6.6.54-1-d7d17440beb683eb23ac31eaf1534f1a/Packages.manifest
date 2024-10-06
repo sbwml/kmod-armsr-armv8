@@ -87,8 +87,8 @@ SourceDateEpoch: 1727132013
 Architecture: aarch64_generic
 Installed-Size: 47704
 Filename: base-files_1-r24106-10cc5fcd00_aarch64_generic.ipk
-Size: 48735
-SHA256sum: d021f6f65e7e518b26b8a63dcefaf8eda283081117c9b300a7bb9f74558cf1e6
+Size: 48734
+SHA256sum: 18daaa636e3c935c9edb9fd5490ef870f1e85fd0d8d145b417623baf615f5b82
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -14683,12 +14683,12 @@ Conflicts: kmod-shortcut-fe-drv
 Source: feeds/base/new/shortcut-fe/shortcut-fe
 SourceName: kmod-shortcut-fe-cm
 Section: kernel
-SourceDateEpoch: 1726985065
+SourceDateEpoch: 1728160868
 Architecture: aarch64_generic
-Installed-Size: 10356
+Installed-Size: 10354
 Filename: kmod-shortcut-fe-cm_6.6.54-8_aarch64_generic.ipk
-Size: 11073
-SHA256sum: 5140a5c8fdd8887008dda83e4e424d74763b2cccceb06e2e0bd891c21e837cc2
+Size: 11071
+SHA256sum: fb82979d99dc7b992a174ccd79e37553ba6350330e96f0bf0670a38176f2d1a5
 Description:  Kernel driver for SFE
 
 Package: kmod-shortcut-fe
@@ -14698,12 +14698,12 @@ Provides: shortcut-fe
 Source: feeds/base/new/shortcut-fe/shortcut-fe
 SourceName: kmod-shortcut-fe
 Section: kernel
-SourceDateEpoch: 1726985065
+SourceDateEpoch: 1728160868
 Architecture: aarch64_generic
-Installed-Size: 38916
+Installed-Size: 39109
 Filename: kmod-shortcut-fe_6.6.54-8_aarch64_generic.ipk
-Size: 39527
-SHA256sum: 4386655e67b366700ca927ded51d8bff04662302283bb1eb3375c1afe0915341
+Size: 39667
+SHA256sum: b5c0428b3cc412aa06da9feeb4097068c03878fb227894a945c8049df3fe7713
 Description:  Kernel driver for SFE
 
 Package: kmod-siit
